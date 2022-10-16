@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1440px 437px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    font-family: 'Red Hat Display';
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+@media only screen and (max-width: 800px) {
+    body { 
+      background-image: url(images/pattern-background-mobile.svg); 
+    }
+  }
+.container{
+    height: 697px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+.image{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    color: #1F2E55;
+    margin: 45px 48px 17px 48px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 37px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+.text{
+    margin: 0 48px 20px 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.texts{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+    
+}
+.music{
+    background: #F7F9FF;
+    border-radius: 11px;
+    height: 98px;
+    width: 354px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 48px 0 48px;
+}
+.annual{
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1F2E55;
+}
+.price{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #717FA6;
+}
+.change{
+
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-decoration-line: underline;
+
+color: #382AE1;
+
+}
+.icon-music{
+    justify-content: space-evenly;
+    display: flex;
+}
+.blue{
+    margin: 32px 48px 32px 48px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    height: 50px;
+    width: 354px;
+
+}
+.proceed{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.cancel{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+}
+
