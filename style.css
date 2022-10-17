@@ -25,6 +25,8 @@ body {
     box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
 }
 
+    
+
 .image{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -141,12 +143,11 @@ color: #382AE1;
         border-radius: 20px;
     background-color: #FFFFFF;
     box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
-
     }
-   .image{
-       height: 160px;
-        width: 327px;
-    }
+    .image{
+        height: 160px;
+         width: 327px;
+     }
      .blue{
         margin: 24px 24px 24px 24px;
         width: 279px;
@@ -167,4 +168,3 @@ color: #382AE1;
 
      }
   }
-
