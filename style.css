@@ -147,6 +147,24 @@ color: #382AE1;
        height: 160px;
         width: 327px;
     }
+     .blue{
+        margin: 24px 24px 24px 24px;
+        width: 279px;
+     }
+     .text{
+         margin: 0 32px 24px 32px;
+     }
+     .texts{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+     }
+     .music{
+         margin: 0 24px 0 24px;
+         height: 81px;
+            width: 279px;
+            border-radius: 11px;
 
+     }
   }
 
